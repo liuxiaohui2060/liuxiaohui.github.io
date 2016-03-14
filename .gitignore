@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<figure>
+	<figcaption>明星鹿晗</figcaption>
+    <img src="123.jpg" alt=""title="提示"> src
+</figure>
+<figure>
+	<figcaption>明星鹿晗</figcaption>
+    <img src="http://imgsrc.baidu.com/baike/pic/item/a8773912b31bb0519c772240347adab44aede003.jpg" alt=""title="提示"> src
+</figure>
+</body>
+</html>
