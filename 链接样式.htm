@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>链接样式</title>
+  <style>
+    a{
+     font-size:27em;
+    }
+    a:link{
+      color:red;
+      background:pink;
+      text-decoration:none;
+
+      
+    }
+    a:visited{
+      color:#CCFF00;
+    }
+    a:hover{
+      color:green;
+    }
+    a:active{
+      color:red;
+    }
+    .c{
+      width: 100px;
+      height: 160px;
+      border: 1px solid #000;
+      position: relative;
+    }
+    .c .phone{
+      width:645px;
+      height: 600px;
+      background: url("http://pic-hzrb.hangzhou.com.cn/0/10/37/44/10374445_287517.jpg") no-repeat;
+      position: absolute;
+      left:120px;
+      top:-70px;
+      opacity: 0;
+      transition:all 1s;
+    }
+    .c:hover .phone{
+      opacity: 2;
+    }
+   
+  </style>
+</head>
+<body>
+  <a href="http://qzone.qq.com/">QQ空间</a>
+  <div class="c">
+    <div class="phone"></div>
+  </div>
+</body>
+</html>
